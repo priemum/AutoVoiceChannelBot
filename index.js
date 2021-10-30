@@ -3,7 +3,7 @@ const client = new Discord.Client()
 const config = require('./config.json')
 
 let textIDs = new Discord.Collection()
-
+         
 client.on('ready', () => {
     console.log(`${client.user.tag} ready! Watching ${client.guilds.cache.size} guilds.`)
 
